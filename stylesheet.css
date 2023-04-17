@@ -1,0 +1,589 @@
+@charset "utf-8";
+@import url("reset,css.css");
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bowlby One SC', cursive;
+	font-family: 'Open Sans', sans-serif;
+}
+#wrap
+{
+	width: 1440px;
+	background-color: #ebbd68;
+	margin: 0 auto;
+}
+#headersection
+{
+	width: 1440px;
+	height: 246px;
+	background-color: #C7954F;
+}
+.logo
+{
+	margin-top: 50px;
+	margin-left: 80px;
+	width: 250px;
+}
+.navbar
+{
+	float: right;
+	padding-right: 50px;
+	margin-top: 120px;
+}
+.navbar li
+{
+	display: inline-block;
+	padding-left: 95px;
+	list-style: none;
+	
+}
+.navbar li a
+{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #ebd6b1;
+	font-weight: bold;
+	font-size: 25px;
+}
+.navbar li a:hover
+{
+	color: #ebbd68;
+	
+}
+
+.searchicon 
+{
+	width: 17px;
+	height: 18px;
+}
+.searchicon:hover
+{
+	
+	cursor: pointer;
+}
+.bannersection
+{
+	width: 1440px;
+	height: 900px;
+	background-image: url("images/image 1.png");
+	
+}
+.bannersection .text
+{
+	float: right;
+	margin-left: 743px;
+	padding-right: 70px;
+	padding-top: 175px;
+}
+.bannersection h1
+{
+	font-family: 'Bowlby One SC', cursive;
+	color: white;
+	font-size: 75px;
+	font-weight: 500;
+	
+}
+.bannersection p
+{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	line-height: 35px;
+	font-size: 19px;
+	padding-top: 60px;
+	padding-bottom: 112px;
+}
+.bannersection button
+{
+	height: 57px;
+	width: 178px;
+	color: white;
+	background-color: #d5681b;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border: none;
+	font-size: 26px;
+	text-transform: capitalize;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.bannersection button:hover 
+{
+	cursor: pointer;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	transform: scale(1.1);
+}
+#bodysection
+{
+	width: 1440px;
+	height: 896px;
+	background-color: #c7954f;
+	background-image: url("images/image 2.png");
+	font-family: 'Bowlby One SC', cursive;
+	font-style: normal;
+	text-align: center;
+}
+#bodysection .text
+{
+	align-content: center;
+	padding-top: 260px;
+	
+}
+#bodysection span
+{
+	font-size: 100px;
+	font-style: italic;
+	color: #ebbd68;
+	font-family: 'Bowlby One SC', cursive;
+}
+#bodysection h1
+{
+	color: white;
+	font-size: 40px;
+	padding: 30px;
+	font-family: 'Bowlby One SC', cursive;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 0px;
+}
+#bodysection h3
+{
+	color: white;
+	font-size: 30px;
+	padding: 30px;
+	font-family: 'Bowlby One SC', cursive;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 0px;
+}
+.bodysection_1
+{
+	width: 1440px;
+	height: 896px;
+	background-color: #ebbd68;
+	background-image: url("images/image 3.png");
+}
+.bodysection_1 .text
+{
+	float: right;
+	margin-left: 796px;
+	margin-top: 200px;
+	margin-right: 98px;
+}
+.bodysection_1 h1
+{
+	font-size: 55px;
+	font-family: 'Bowlby One SC', cursive;
+	color: #bd6827;
+	font-weight: 500;
+}
+.bodysection_1 li
+{
+	font-size: 25px;
+	color: white;
+	justify-content: center;
+	
+}
+.bodysection_1 ul
+{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	justify-content: center;
+	
+}
+.bodysection_1 ul li::before
+{
+	 color: #bd6827;
+	display: inline-block;
+	content: "\2022"; 
+	width: 40px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.menusection
+{
+	width: 1440px;
+	height: 896px;
+	background-color: #c7954f;
+	background-image: url("images/image 4.png");
+}
+.menusection .text
+{
+	padding-top: 95px;
+	margin-left: 56px;
+}
+.menusection h1
+{
+	font-size: 60px;
+	font-family: 'Bowlby One SC', cursive;
+	color: white;
+	font-weight: 500;
+}
+.menusection ul
+{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+}
+.menusection li
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-transform: capitalize;
+	list-style: none;
+	padding-bottom: 20px;
+}
+.menusection ul li::before
+{
+	
+	 color: #bd6827;
+	display: inline-block;
+	content: "\2022"; 
+	width: 40px;
+	font-size: 60px;
+	font-weight: bold;
+}
+.tastybrunch
+{
+	width: 1440px;
+	height: 896px;
+	background-color: #bd6827;
+	background-image: url("images/videobg.png");
+}
+
+.brunch
+{
+	margin-top: 188px;
+    margin-left: 165px;
+    width: 1082px;
+    height: 610px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.tastybrunch h1
+{
+	font-size: 115px;
+	font-family: 'Bowlby One SC', cursive;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 30px;
+	position: absolute;
+	margin: 0px 277px;
+	font-weight: 500;
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	
+}
+
+.flex-container > div
+{	
+	width: 347px;
+	height: 557px;
+	margin: 30px;
+	background-color: white;
+	justify-content: space-around;
+	
+											
+}
+.infoboxwrap
+{
+	width: 1440px;
+	height: 900px;
+	background-color: #ebbd68;
+	 
+	background-image: url(images/flexbg.png);
+}
+.infoboxwrap h1
+{
+	text-align: center;
+	font-size: 58px;
+	padding: 66px;
+	text-transform: uppercase;
+	font-family: 'Bowlby One SC', cursive;
+	color: white;
+	font-weight:500;
+}
+.item
+{
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+}
+.item p
+{
+	 text-align: center;
+	line-height: 26px;
+	font-size: 16.5px;
+	margin: 30px;
+	color: #cea366;
+	font-family: 'Open Sans', sans-serif;
+}
+.item button
+{
+	width:136px;
+	height:41px;
+	background-color: #bd6827;
+	border: 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-left: 106px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.item button:hover
+{
+	
+	cursor: pointer;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	transform: scale(1.1);
+}
+
+.form_1
+{
+	width: 1440px;
+	height: 900px;
+	background-color: #BD6827;
+	background-image: url(images/formbg.png);   
+}
+.image
+{
+	height: 0px;
+	width: 0px;
+	position: relative;
+	margin-left: 165px;
+	padding-top: 105px;
+}
+.box
+{
+	width: 1109px;
+	height: 691px;
+	position: absolute;
+	margin-left: 165px;
+	padding-top: 2px;
+	
+    
+}
+.box h1
+{
+	color: white;
+	font-size: 60px;
+	margin: 35px;
+	text-align: justify;
+	text-transform: uppercase;
+	font-family: 'Bowlby One SC', cursive;
+	margin-left: 150px;
+	margin-top: 40px;
+	font-weight: 500;
+	 
+}
+
+ .fbutton
+{
+	width: 390px;
+	height: 60px;
+	background-color: #ece4cd;
+	align-self: center;
+	margin-right: 50px;
+	margin-bottom: 33px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: larger;
+	font-weight: 400;
+	
+	border:1.5px solid #bdb49c;
+}
+.messages
+{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: larger;
+	background-color: #ece4cd;
+	
+	border: 1.5px solid #bdb49c;
+	
+}
+.box button
+{
+	width: 207px;
+	height: 54px;
+	margin-top: 30px;
+	background-color: #ebbd68;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+	border: 0px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.box1
+{
+	margin-left: 150px;
+	margin-top: 50px;
+	
+}
+
+.newsletter
+{
+	width: 1440px;
+	height: 900px;
+	background-color: #916b3f;
+	background-image: url(images/newsletter\ bg.png);
+}
+.newsletter h1
+{
+	text-transform: uppercase;
+	font-family: 'Bowlby One SC', cursive;
+	color: #f8eed3;
+	font-size: 60px;
+	align-content: center;
+	padding: 360px 530px 25px 530px;
+	font-weight: 500;
+}
+.newsletter p
+{
+	padding: 25px 235px 25px 235px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #f8eed3;
+	text-align: center;
+}
+.nbutton
+{
+	position: relative;
+	height: 55px;
+	width: 460px;
+	border:2px solid white;
+	background: transparent;
+	margin-left: 400px;
+	padding-left: 35px;
+	color:#f8eed3;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.newsletter button
+{
+	position: absolute;
+	height: 55px;
+	width: 210px;
+	border: 0px;
+	background-color: white;
+	color: #bd6827;
+	font-weight: bold;
+	font-size: 27px;
+	font-style: italic;
+	cursor: pointer;
+}
+#footersection
+{
+	width: 1440px;
+	height: 580px;
+	background-color: #bd6827;
+}
+.logo1
+{
+	height: 88px;
+	width: 144px;
+	margin-bottom: 2px;
+	
+}
+#footersection h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #ebbd68;
+	font-size: 24px;
+	text-transform: capitalize;
+	padding-top: 10px;
+}
+.main
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer
+{
+	padding:  160px 66px 180px 50px;
+}
+.col
+{
+	
+	padding: 0px 108px 0px 0px;
+	   
+}
+
+
+.col li 
+{
+	list-style: none;
+	margin-bottom: 15px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.col li a
+{
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.col h1 
+{
+	padding-bottom: 40px;
+}
+.col li a:hover
+{
+	text-decoration: underline;
+}
+.social .fa-brands
+{
+	color: white;
+	margin-right: 22px;
+	font-size: 40px;
+}
+.social .fa-brands:hover
+{
+	cursor: pointer;
+	
+}
+.searchbox
+{
+	width: 227px;
+	height: 38px;
+	background-color: transparent;
+	border: 2px solid #FFFFFF;
+	position: relative;
+}
+.search 
+{
+	border: 2px solid #FFFFFF;
+	border-left: 0px;
+	width: 50px;
+	height: 38px;
+	display:inline-block;
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	font-weight:lighter;
+	
+	background-color: #c7954f;
+	cursor: pointer;
+	
+}
+
+.logo2
+{
+	height: 42px;
+	margin-top: 62px;
+	margin-bottom: 36px;
+	width: 80px;
+}
+	
